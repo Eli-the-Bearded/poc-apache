@@ -1,0 +1,2 @@
+# set variables that will get used in the server conf file
+export SERVER_ADMIN=chef@pizza.invalid

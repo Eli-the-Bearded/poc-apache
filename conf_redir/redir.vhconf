@@ -1,0 +1,1 @@
+RedirectMatch 301 /(.*) https://apache.on-a.pizza/$1

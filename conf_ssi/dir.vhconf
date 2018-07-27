@@ -1,0 +1,5 @@
+<Directory ${APACHE_DOCROOT}/>
+Options +Includes
+XBitHack on
+</Directory>
+
