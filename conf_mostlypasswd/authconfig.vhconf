@@ -1,0 +1,15 @@
+<Directory ${APACHE_DOCROOT}/>
+  AllowOverride AuthConfig
+  AuthType Basic
+  AuthName "Restricted Files"
+  AuthBasicProvider file
+  AuthUserFile ${APACHE_EXTRA_DIR}/htpasswd
+  Require valid-user
+</Directory>
+  
+<LocationMatch "^/$">
+  Require all granted
+</LocationMatch>
+<LocationMatch "^/index.html$">
+  Require all granted
+</LocationMatch>
