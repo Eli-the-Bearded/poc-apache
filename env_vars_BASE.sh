@@ -12,6 +12,9 @@
 # same hostname / port
 # 		-> so only run one at once
 #
+# It is expected that you do not need to modify this file for any
+# particular example config.
+#
 # Original version circa 2016.
 
 
